@@ -18,8 +18,8 @@ public class Server extends JFrame implements Listener{
     private static final int WINDOW_HEIGHT = 100;
     JButton btnStart = new JButton("Start Server");
     JButton btnStop  = new JButton("Stop Server");
-
-    ServerRun serverRun = new ServerRun(this);
+    boolean isServicesWorking;
+    ServerListener serverRun = new ServerRun(this);
     Listener listener = new Listener() {
         @Override
         public void massageRes(String st) {
@@ -41,13 +41,14 @@ public class Server extends JFrame implements Listener{
         btnStart.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
-                serverRun.start();
+
+                serverRun.serverListener(true);
             }
         });
         btnStop.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
-                serverRun.stop();
+                serverRun.serverListener(false);
             }
         });
     }

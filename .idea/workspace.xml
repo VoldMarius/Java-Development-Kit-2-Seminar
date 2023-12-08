@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93bb870e-8b99-4d9f-9ca4-0e42f654042b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkSeminar2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkSeminar2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkSeminar2/src/main/java/org/example/Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkSeminar2/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkSeminar2/src/main/java/org/example/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkSeminar2/src/main/java/org/example/ServerRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Background.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MainCanvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MainWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Sprite.java" afterDir="false" />
+    <list default="true" id="93bb870e-8b99-4d9f-9ca4-0e42f654042b" name="Changes" comment="First Task is FINISHED!">
+      <change afterPath="$PROJECT_DIR$/HomeWorkSeminar2/src/main/java/org/example/ServerListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorkSeminar2/src/main/java/org/example/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorkSeminar2/src/main/java/org/example/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorkSeminar2/src/main/java/org/example/ServerRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorkSeminar2/src/main/java/org/example/ServerRun.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,14 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "C:/Users/Maxim/Desktop/GB/Java Development Kit (лекции)/GraphicalInterfaces"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Maxim/Desktop/GB/Java Development Kit (лекции)/GraphicalInterfaces&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,9 +51,37 @@
       <option name="presentableId" value="Default" />
       <updated>1700888130367</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Task is FINISHED!">
+      <created>1701773955891</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701773955891</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Task is FINISHED!">
+      <created>1701774015579</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701774015579</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First Task is FINISHED!" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Task is FINISHED!" />
   </component>
 </project>
