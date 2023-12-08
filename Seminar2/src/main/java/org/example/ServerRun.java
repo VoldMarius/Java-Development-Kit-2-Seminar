@@ -15,15 +15,15 @@ public class ServerRun implements ServerListener {
             isServicesWorking = true;
            listener.massageRes("Сервер запущен");
         }
-        else listener.massageRes("Статус сервера: "+ true);
+        else listener.massageRes("Сервер уже работает");
     }
 
     public void stop() {
         if(isServicesWorking){
             isServicesWorking = false;
-            listener.massageRes("Статус сервера: "+ false);
+            listener.massageRes("Сервер выключен");
         }
-        else listener.massageRes("Сервер выключен");
+        else listener.massageRes("Сервер уже был выключен");
     }
     @Override
     public void serverListener(boolean status){
