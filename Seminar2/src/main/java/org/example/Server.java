@@ -18,7 +18,7 @@ public class Server extends JFrame implements Listener{
     private static final int WINDOW_HEIGHT = 100;
     JButton btnStart = new JButton("Start Server");
     JButton btnStop  = new JButton("Stop Server");
-    boolean isServicesWorking;
+
     ServerListener serverRun = new ServerRun(this);
     Listener listener = new Listener() {
         @Override
